@@ -10,9 +10,9 @@ public interface UserDAO {
     // get all users
     // get user by name
     // get user by id
-    public List<User> getAllUsers(Session crsession);
-    public void getUserByname();
-    public void getId();
+     List<User> getAllUsers(Session crsession);
+     void getUserByname();
+     void getId();
     void save(User user);
 
 }
