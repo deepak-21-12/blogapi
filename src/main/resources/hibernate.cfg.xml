@@ -13,6 +13,8 @@
   <property name="show_sql">true</property>
     <property name="connection.autocommit">true</property>
     <mapping class="org.example.model.User" />
+    <mapping class="org.example.model.Blog" />
+    <mapping class="org.example.model.Address" />
 
   </session-factory>
 </hibernate-configuration>

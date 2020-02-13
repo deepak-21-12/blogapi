@@ -95,4 +95,16 @@ public   class User {
     public void setEmailId(String emailId) {
         this.emailId = emailId;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id='" + id + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", confirmPassword='" + confirmPassword + '\'' +
+                ", emailId='" + emailId + '\'' +
+                ", address=" + address +
+                '}';
+    }
 }
